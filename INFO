@@ -1,0 +1,76 @@
+=== REGRAS PARA SAIDA CORRETA NO TERMINAL ===
+=== SIGA AS REGRAS ABAIXO: === 
+	- Nao use caracteres especiais ou espacos no nome;
+	- Nao utilize pontos, virgulas ou espacos nos numeros;
+
+Com essas boas prticas o codigo dever funcionar sem problemas.
+
+=== EXEMPLO DE ENTRADA E SAIDA ESPERADA ===
+
+=== CADASTRO DE CARTAS - SUPER TRUNFO PAISES ===
+=== NIVEL MESTRE ===
+
+
+			=== ENTRADA ===
+--- PRIMEIRA CARTA ---
+Digite o codigo da cidade (ex: A01): A01
+Digite o nome da cidade: SAOPAULO
+Digite a populacao: 12400000
+Digite a area (km2): 1521
+Digite o PIB (em milhoes): 833000
+Digite o numero de pontos turisticos: 25
+
+--- SEGUNDA CARTA ---
+Digite o codigo da cidade (ex: B02): B02
+Digite o nome da cidade: RIODEJANEIRO
+Digite a populacao: 6775000
+Digite a area (km2): 1200
+Digite o PIB (em milhoes): 354000
+Digite o numero de pontos turisticos: 30
+
+--------------------------------------------
+			=== SAIDA ===
+=== DADOS DAS CARTAS CADASTRADAS ===
+
+--- PRIMEIRA CARTA ---
+Codigo: A01
+Nome: SAOPAULO
+Populacao: 12400000
+Area: 1521.00 km2
+PIB: 833000.00 milhoes
+Pontos turisticos: 25
+Densidade populacional: 8152.53 hab/km2
+PIB per capita: 0.07 milhoes por habitante
+Super Poder: 13234546.00
+
+--- SEGUNDA CARTA ---
+Codigo: B02
+Nome: RIODEJANEIRO
+Populacao: 6775000
+Area: 1200.00 km2
+PIB: 354000.00 milhoes
+Pontos turisticos: 30
+Densidade populacional: 5645.83 hab/km2
+PIB per capita: 0.05 milhoes por habitante
+Super Poder: 7130230.00
+
+
+=== COMPARACAO DAS CARTAS ===
+
+Populacao: Carta 1 vence
+Area: Carta 1 vence
+PIB: Carta 1 vence
+Pontos turisticos: Carta 2 vence
+Densidade populacional: Carta 2 vence
+PIB per capita: Carta 1 vence
+Super Poder: Carta 1 vence
+
+=== RESULTADO FINAL ===
+Carta 1 (SAOPAULO): 5 vitorias
+Carta 2 (RIODEJANEIRO): 2 vitorias
+
+ CARTA VENCEDORA: Carta 1 (SAOPAULO) com 5 de 7 atributos!
+
+Cadastro e comparacao concluidos com sucesso!
+Atributos calculados: Densidade Populacional, PIB per Capita e Super Poder
+
